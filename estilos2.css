@@ -1,0 +1,194 @@
+body{
+	background-color:#f4f6f6;
+	margin: 0;
+}
+
+nav img{
+	float: left;
+	margin: 13px;
+}
+
+nav {
+	overflow: hidden;
+	margin: 0 auto;
+	height:70px;
+	width: 100%;
+	position: fixed;
+	top:0;
+    background-color: #cd3f3e;
+}
+
+.logo{
+	float: left;
+	font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+	color: #FFFFFF;
+	font-size: 35px;
+	margin: 9px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+ul{
+	float: right;
+}
+li{
+  float: right;
+  color: #FFFFFF;
+  font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  margin: 40px;
+  list-style: none;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.link{
+	text-decoration: none;
+	color: white;
+}
+.link:hover{
+  color: #000000;
+}
+.hero{
+	margin-top: 70px;
+    height: 560px;
+	text-align: center;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url(fondo.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.icon{
+	margin-top: 140px;
+}
+
+.tw{
+	color: #FFFFFF;
+	text-shadow: 2px 2px 2px black;
+	font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+	font-size: 45px;
+}
+
+
+.cards{
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+	height: 290px;
+}
+.card{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+	height: 270px;
+	width: 70%;
+	background-color: #100C27;#100C27;
+	-moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+}
+
+.cardst{
+	text-align: center;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 1px black;
+	font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+	font-size: 30px;	
+}
+
+
+
+h3 i{
+	margin-top: 50px;
+	width: 80%;
+	font-size: 60px;
+}
+div{	
+	display: inline;
+	overflow: hidden;
+	height: 70px;
+}
+
+.contenedorg{
+	width: 100%;
+	align-content:  center;
+}
+.tit{
+	width: 100%;
+	color: #000000;
+	text-align: center;
+	font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+	font-size: 30px;
+}
+.divgaleria{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.galeria{
+	margin-left: 35px;
+	width: 95%;
+	background-color: #100C27;
+
+}
+.fila{
+	height: 350px;
+}
+
+.columna1{
+	width: 25%;
+	background-image: url(https://cdn.mobilesyrup.com/wp-content/uploads/2018/12/twitter-header-10.jpg);	
+	background-size: cover;
+	background-position: center;
+}
+
+.columna2{
+	width: 25%;
+	background-image: url(https://cdn.mobilesyrup.com/wp-content/uploads/2019/08/ios-13-dark-mode.jpg);
+	background-size: cover;
+}
+
+.columna3{
+	width: 25%;
+	background-image: url(https://techcrunch.com/wp-content/uploads/2019/03/Image-from-iOS.jpg?w=730&crop=1);	
+	background-size: cover;
+	background-position: center;
+}
+
+.columna4{
+	width: 25%;
+	background-image: url(ananana.jpg);	
+	background-size: cover;
+	background-position: center;
+}
+
+.columna5{
+	width: 25%;
+	background-image: url(https://o.aolcdn.com/images/dims?quality=85&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D1600%252C1101%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1101%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-uploaded-images%252F2019-03%252F383e0f20-4bf6-11e9-b6f6-65b76c4a5930%26client%3Da1acac3e1b3290917d92%26signature%3D9a485c886a3ac1d8d66f0d8c3fbc3a2024194ae0&client=amp-blogside-v2&signature=06e0dd4f3faee114f86f5345ee1105142adc0c37);	
+	background-size: cover;
+	background-position: center;
+}
+
+.columna6{
+	width: 25%;
+	background-image: url(galeria.jpg);	
+	background-size: cover;
+	background-position: center;
+}
+
+form{
+	margin-top: 10px;
+	max-width: 80%;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+  background-color: #100C27;
+}
